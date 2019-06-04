@@ -1,0 +1,78 @@
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+
+body{
+	font-family: "franklin-gothic-urw", Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    line-height: 1.63em;
+	background: #faa0af;
+    color: #525151;
+    line-height: 21px;
+    -webkit-font-smoothing: antialiased;
+}
+
+h2{
+	color: white;
+	font-weight: bold;
+}
+
+
+img {
+
+    padding: 0;
+    margin: 0;
+    border:0;
+}
+
+.show {
+    display: block !important;
+ }
+
+
+
+
+
+
+
+
+
+@keyframes bounce{
+  0%{
+    opacity: 1;
+    transform: scale(1);
+  }
+  25%{
+    opacity: 1;
+    transform: scale(1.1);
+  }
+  50%{
+    opacity: 1;
+    transform: scale(1);
+  }
+  80%{
+    opacity: 1;
+    transform: scale(1.1);
+  }
+  100%{
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+.bounce {
+  opacity: 1;
+  -webkit-animation-name: bounce;
+  animation-name: bounce;
+  transform-origin: 50px 50px;
+  animation-timing-function: linear;
+  animation-fill-mode: forwards;
+  animation-iteration-count:infinite;
+
+  -webkit-animation-duration: 2s;
+  animation-duration: 2s;
+
+
+}
