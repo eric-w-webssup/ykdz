@@ -238,10 +238,10 @@
             $(document).ready(function() {
                 $("[data-msg]").on('touchstart click', function(e) {
                     $('.overlay__text').html($(this).attr('data-msg'));
-                    $('.overlay').show();
+                    $('.overlay').stop().show();
                 });
                 $('.overlay').on('touchstart click', function(e) {
-                    $(this).hide();
+                    $(this).stop().hide();
                 })
             });
         </script>

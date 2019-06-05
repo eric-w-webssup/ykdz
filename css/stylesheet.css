@@ -29,6 +29,10 @@ img {
     position: relative;
 }
 
+.pop-up>div {
+    overflow: auto;
+}
+
 .pop-up>.col__lg-10-12__center.col__12-12 img {
     display: block;
     max-width: 100%;
