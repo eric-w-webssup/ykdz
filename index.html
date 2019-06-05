@@ -146,27 +146,43 @@
             <div class="pop-up">
                 <div class="col__lg-10-12__center col__12-12" style="  padding-left: 0px !important;
   padding-right: 0px !important;">
-                    <span class="photoGrid"><img src="images/head/showup-1.jpg" data-msg="" class="roy"></span>
+                    <span class="photoGrid"><img src="images/head/showup-1.jpg" data-msg="你的POSE如何，你的生日也必如何......" class="roy"></span>
                     <span class="photoGrid"><img src="images/head/showup-3.jpg" data-msg="壽辰快樂，<br>丁死我了。" class="phyllis"></span>
                     <span class="photoGrid"><img src="images/head/showup-2.jpg" data-msg="" class="ray"></span>
                     <span class="photoGrid"><img src="images/head/showup-9.jpg" data-msg="" class="fish"></span>
 
 
                     <span class="photoGrid"><img src="images/head/showup-5.jpg" data-msg="多做護眼操，畢竟你對眼久經月亮摧殘......" class="iris"></span>
-                    <span class="photoGrid"><img src="images/head/showup-6.jpg" data-msg="憑咩呀<br> (Remarks: 唔可以攻擊他人身體)" class="zack"></span>
+                    <span class="photoGrid"><img src="images/head/showup-6.jpg" data-msg="憑咩呀<br>(Remarks: 唔可以攻擊他人身體)<br>@俊俊俊你老母" class="zack"></span>
                     <span class="photoGrid"><img src="images/head/showup-7.jpg" data-msg="隻手又白又圓潤 做手mo啱晒" class="jenn"></span>
-                    <span class="photoGrid"><img src="images/head/showup-8.jpg" data-msg="" clas="wendy"></span>
+                    <span class="photoGrid"><img src="images/head/showup-8.jpg" data-msg="叫聲你man姐囉,咁以後吾好再水我買野<br>咁我都吾會再水你買野" clas="wendy"></span>
 
                     <span class="photoGrid"><img src="images/head/showup-4.jpg" data-msg="恭喜恭喜恭喜你呀，恭喜恭喜恭喜你" class="ariel"></span>
-                    <span class="photoGrid"><img src="images/head/showup-10.jpg" data-msg="" class="apple"></span>
-                    <span class="photoGrid"><img src="images/head/showup-11.jpg" data-msg="" class="phyllis"></span>
+                    <span class="photoGrid"><img src="images/head/showup-10.jpg" data-msg="奶蓋界KOL文兒生日好快樂, 邊個要兵form叫佢搵我拎籌" class="apple"></span>
+                    <span class="photoGrid"><img src="images/head/showup-11.jpg" data-msg="請我食粒糖" class="V-Jie"></span>
                     <span class="photoGrid"><img src="images/head/showup-12.jpg" data-msg="要長命百歲噢！" class="vanessa"></span>
 
-                    <span class="photoGrid"><img src="images/head/showup-13.jpg" data-msg="" class="ting"></span>
+                    <span class="photoGrid"><img src="images/head/showup-13.jpg" data-msg="除咗恭喜之外我都唔知講乜嘢好喇，恭喜恭喜🎂" class="ting"></span>
                     <span class="photoGrid"><img src="images/head/showup-14.jpg" data-msg="熱烈地彈文熱烈地唱,歌聲多奔放,個個喜喜洋洋" class="wytta"></span>
-                    <span class="photoGrid"><img src="images/head/showup-15.jpg" data-msg="" class="vito"></span>
-                    <span class="photoGrid"><img class="main-img" src="images/head/showup-16.jpg" class="yourself"></span>
+                    <span class="photoGrid"><img src="images/head/showup-15.jpg" data-msg="你喜歡我們準備的易拉架嗎? (迷之聲: 我很喜歡)" class="vito"></span>
+                    <span class="photoGrid"><img src="images/head/showup-17.jpg" data-msg="生日快樂，我會排係隊尾等你" class="load">
+                    </span>
+
+                    <span class="photoGrid"><img src="images/head/showup-18.png" data-msg="alco" class="alco"></span>
+                    <span class="photoGrid"><img src="images/head/showup-19.jpg" data-msg="奶蓋肥 無所謂 妳最美" class="anthea"></span>
+                    <span class="photoGrid"><img src="images/head/showup-21.jpg" data-msg="生日快樂" class="maggie"></span>
+                    <span class="photoGrid"><img src="images/head/showup-22.jpg" data-msg="祝你與貓結伴生日快樂~" class="cathleen"></span>
+                    </span>
+
+                    <span class="photoGrid"><img src="images/head/showup-23.jpg" data-msg="生日快樂" class="rain"></span>
+                    <span class="photoGrid"><img src="images/head/showup-24.jpg" data-msg="生日快樂" class="vivian"></span>
+                    <span class="photoGrid"><img src="images/head/showup-20.jpg" data-msg="" class=""></span>
+                    <span class="photoGrid"><img class="main-img yourself" src="images/head/showup-16.jpg">
+                    </span>
+
+
                 </div>
+
                 <div class="overlay">
                     <div class="overlay__text"></div>
                 </div>
@@ -238,10 +254,10 @@
             $(document).ready(function() {
                 $("[data-msg]").on('click', function(e) {
                     $('.overlay__text').html($(this).attr('data-msg'));
-                    $('.overlay').stop().show();
+                    $('.overlay').show();
                 });
                 $('.overlay').on('click', function(e) {
-                    $(this).stop().hide();
+                    $(this).hide();
                 })
             });
         </script>
